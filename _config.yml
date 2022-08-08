@@ -14,6 +14,7 @@ title:		           "KinMS"
 description:	       "Kinematic modelling of 3D data in astronomy"
 author:              "Timothy A. Davis"
 hide_related_posts: True
+hide_post_share: True
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
