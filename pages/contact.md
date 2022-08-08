@@ -4,4 +4,12 @@ title: Contact
 permalink: /contact
 ---
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/Millennial/issues/new).
+
+If you want to get in touch about KinMS please email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#68;&#97;&#118;&#105;&#115;&#84;&#64;&#99;&#97;&#114;&#100;&#105;&#102;&#102;&#46;&#97;&#99;&#46;&#117;&#107;">&#68;&#97;&#118;&#105;&#115;&#84;&#64;&#99;&#97;&#114;&#100;&#105;&#102;&#102;&#46;&#97;&#99;&#46;&#117;&#107;</a>, or tweet me [@timdavisastro](https://twitter.com/timdavisastro).
+
+You can also raise an issue/feature request on the respective [github]({{ site.github.url }}/about).
+
+<font size=4><u><b>Credit</b></u></font>
+
+KinMS has been developed by [Timothy A. Davis](http://www.astro.cardiff.ac.uk/pub/Tim.Davis/), with significant help at various times from [Nikki Zabel](https://sites.google.com/view/nikkizabel/home) and [James Dawson](https://ratt.center/people/postdoctoral_fellows/dawson/).
+

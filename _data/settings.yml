@@ -15,8 +15,7 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'twitter', link:    'https://twitter.com/timdavisastro'}
-- {icon: 'envelope', link:   'mailto:DavisT@cardiff.ac.uk'}
-- {icon: 'rss-square', link: 'feed.xml'}
+- {icon: 'envelope', link:   '&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#68;&#97;&#118;&#105;&#115;&#84;&#64;&#99;&#97;&#114;&#100;&#105;&#102;&#102;&#46;&#97;&#99;&#46;&#117;&#107;'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
 
 # Customize site text
@@ -24,7 +23,7 @@ pagination:
   next_page: 'Newer'
   previous_page: 'Older'
 
-sharing_button_prompt: 'Feel free to share!'
+sharing_button_prompt: 'Click here to share'
 
 related_posts: 'You may also enjoy...'
 

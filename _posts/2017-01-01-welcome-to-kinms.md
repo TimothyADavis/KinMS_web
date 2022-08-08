@@ -8,35 +8,23 @@ image: KinMS_fade_gal.png
 ---
 
 
-Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+The KinMS set of packages can be used to forward model 3D datacubes from interferometers and/or Integral Field Units (IFUs) - or, with some postprocessing, 1D/2D data products and long-slit spectra. 
 
-## Getting Started
+KinMS standards for "KINematic Molecular Simulation", as modelling the kinematics of molecular gas data was the original usecase (e.g. investigating the kinematics of gas in early-type galaxies, [Davis et al., 2013a](https://academic.oup.com/mnras/article/429/1/534/1022845); and determining supermassive black-hole masses from interfermetric observations, [Davis et al., 2013b](https://ui.adsabs.harvard.edu/abs/2013Natur.494..328D/abstract)), but KinMS is useful for a wide variety of usecases beyond this. Some examples from the [40+ peer reviewed papers that use KinMS](https://ui.adsabs.harvard.edu/search/filter_property_fq_property=AND&filter_property_fq_property=property%3A%22refereed%22&fq=%7B!type%3Daqp%20v%3D%24fq_property%7D&fq_property=(property%3A%22refereed%22)&q=%20full%3A%22KinMS%22&sort=date%20desc%2C%20bibcode%20desc&p_=0) include:
 
- getting started with installing Millennial, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+* Creating mock datacubes from hydrodynamic simulations: [Davis et al. 2019](https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.2447D/abstract)
+* Modelling optical ionised-gas line profiles from MaNGA IFU/long-slit spectra in Red Geysers: [Roy et al. 21](https://ui.adsabs.harvard.edu/abs/2021ApJ...913...33R/abstract)
+* Modelling the kinematics of edge on disc galaxies to search for non-circular motions: [Hogarth et al. 2022](https://arxiv.org/abs/2204.02925)
 
-## Example Content
+<font size=1>(If you have used KinMS for something particularly outside of the ordinary let me know- I'd be delighted to feature you here!)</font>
 
-Here 
-## Questions?
+### Why choose KinMS?
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%20question%20about%20Millennial;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/Millennial/issues/new).
+Various kinematic modelling packages are avalible, and widely used in the astronomical community. For instance [TiRiFiC](https://gigjozsa.github.io/tirific/), [3D-Barolo](https://editeodoro.github.io/Bbarolo/) and [GalPaK3D](http://galpak3d.univ-lyon1.fr/). Each has its own strengths and weaknesses, and may be better/worse for your specific problem. Here I outline some of the advantages of KinMS, so you can determine if it is the package for you:
 
-## More Jekyll!
+* <b><u>KinMS allows you to go beyond tilted rings.</u></b> It can be used as a classic tilted ring fitting code (but if that is your main usecase and you dont need any of KinMS's extra functionality I recommend either TiRiFiC or 3D-Barolo), but shines when used to fit physically motivated functional forms for e.g. rotation cuves and/or gas surface brightness profiles. For instance, it includes models for various potentials, allowing kinematic disc-bulge decompositions, the inclusion of compact objects, using [MGE decompositions](https://www-astro.physics.ox.ac.uk/~cappellari/software/#mge) of stellar light, etc.
+* <b><u>KinMS is flexible.</u></b> It can be used to fit non-axisymmetric structures such as spirals, bars and merging galaxies via its `inClouds` mechanism, and allows the user significant freedom in the types of circular/non-circular motions modelled. 
+* <b><u>KinMS is Bayesian.</u></b> By default the `KinMS_fitter` routines use a Markov Chain Monte Carlo (MCMC) approach, allowing the user to set arbitary priors, explore degeneracies and obtain full ND posterior probability distribution functions. 
+* <b><u>KinMS is implemented in pure python.</u></b> This makes it simple to understand and use (to e.g. build a pipeline for fitting many objects), easy to modify for your needs (e.g. if you need to move beyond simple disc fitting), and effortless to install across different environments.  
 
-### Lagrange
-
-Lagrange is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog.
-
-Feel free to check out <a href="https://lenpaul.github.io/Lagrange/" target="_blank">the demo</a>, where you’ll also find instructions on <a href="https://lenpaul.github.io/Lagrange/journal/getting-started.html">how to use install</a> and use the theme.
-
-### Portfolio Jekyll Theme
-
-This is a Jekyll theme built using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). The purpose of this theme is to provide a clean and simple website for your portfolio. Emphasis is placed on your projects, which are shown front and center on the home page.
-
-Everything that you will ever need to know about this Jekyll theme is included in [the repository](https://github.com/LeNPaul/portfolio-jekyll-theme), which you can also find in [the demo site](https://lenpaul.github.io/portfolio-jekyll-theme/).
-
-### Jekyll Starter Kit
-
-The Jekyll Starter Kit is a simple framework for starting your own Jekyll project using all of the best practices that I learned from building my other Jekyll themes.
-
-Feel free to check out <a href="https://github.com/LeNPaul/jekyll-starter-kit" target="_blank">the GitHub repository</a>, where you’ll also find instructions on how to use install and use the theme.
+If some or all of these sound good, then go to the [Installation & Tutorial]({{ site.github.url }}{% post_url 2016-11-10-getting-started_wkinms %}). If you are still unsure then feel free to [contact me]({{ site.github.url }}/about). 
