@@ -7,7 +7,7 @@ tags: [documentation,sample]
 image: KinMS_in_action.png
 ---
 
-KinMSpy is designed with Python users in mind, and is hopefully easy to install and use. For most use cases you will want to follow the directions under "Normal User". If you are a power-user who wants to do something out of the ordinary then follow the "Power User" instructions. Both user types have tutorials avalible (see below).
+KinMS is designed with Python users in mind, and is hopefully easy to install and use. For most use cases you will want to follow the directions under "Normal User". If you are a power-user who wants to do something out of the ordinary then follow the "Power User" instructions. Both user types have tutorials avalible (see below).
 
 
 <font size=5><u>Normal User</u></font>
