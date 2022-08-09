@@ -10,7 +10,7 @@
 @media (max-width: $container-width) {
   .site-header {
     min-height: 95px;
-    min-width: 300px;
+    width: 100%;
     position: fixed;
     background-color: white;
     box-shadow: 0 5px 6px -6px #bbb;

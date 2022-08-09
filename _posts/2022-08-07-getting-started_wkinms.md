@@ -9,7 +9,14 @@ image: KinMS_in_action.png
 
 KinMS is designed with Python users in mind, and is hopefully easy to install and use. For most use cases you will want to follow the directions under "Normal User". If you are a power-user who wants to do something out of the ordinary then follow the "Power User" instructions. Both user types have tutorials avalible (see below).
 
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Normal User</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Power User</button>
+</div>
 
+<!-- Tab content -->
+<div id="London" class="tabcontent" markdown="1">
 <font size=5><u>Normal User</u></font>
 If you are a new user, and/or you don't expect to need any advanced features then you will want the KinMS_fitter package. This installs the base KinMS routines, and wraps them in a user-friendly way to get you fitting datacubes in the minimum possible time.
 
@@ -21,7 +28,9 @@ KinMS_fitter can be installed with `pip install kinms-fitter`. Alternatively you
 
 An iPython notebook tutorial on KinMS_fitter can be found here: [KinMS_fitter tutorial](https://github.com/TimothyADavis/KinMS_fitter/blob/main/kinms_fitter/docs/KinMS_fitter_tutorial.ipynb)
 
+</div>
 
+<div id="Paris" class="tabcontent"  markdown="1">
 <font size=5><u>Power User</u></font>
 
 If you are a power user then you may just want the base KinMS routines without the fitter, in order to roll your own analysis code. Note- if you already installed the fitter then there is no need to install KinMS seperately- you already have everything you need to follow the tutorials below.
@@ -41,7 +50,24 @@ run_tests()
 ```
 
 If you need go through the nuts and bolts of fitting, see the walk through here: [Example fitting tutorial](https://github.com/TimothyADavis/KinMSpy/blob/master/kinms/docs/KinMSpy_tutorial.ipynb)
+</div>
 
+<script>
+document.getElementById("defaultOpen").click();
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
 
 
 ### Bugs and further assistance
