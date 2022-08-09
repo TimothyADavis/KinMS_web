@@ -27,4 +27,4 @@ Various kinematic modelling packages are avalible, and widely used in the astron
 * <b><u>KinMS is Bayesian.</u></b> By default the `KinMS_fitter` routines use a Markov Chain Monte Carlo (MCMC) approach, allowing the user to set arbitary priors, explore degeneracies and obtain full ND posterior probability distribution functions. 
 * <b><u>KinMS is implemented in pure python.</u></b> This makes it simple to understand and use (to e.g. build a pipeline for fitting many objects), easy to modify for your needs (e.g. if you need to move beyond simple disc fitting), and effortless to install across different environments.  
 
-If some or all of these sound good, then go to the [Installation & Tutorial]({{ site.github.url }}{% post_url 2016-11-10-getting-started_wkinms %}). If you are still unsure then feel free to [contact me]({{ site.github.url }}/about). 
+If some or all of these sound good, then go to the [Installation & Tutorial]({{ site.github.url }}{% post_url 2022-08-07-getting-started_wkinms %}). If you are still unsure then feel free to [contact me]({{ site.github.url }}/about). 
