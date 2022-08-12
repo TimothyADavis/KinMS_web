@@ -10,4 +10,4 @@ Issues should be raised here for bugs found in the KinMS routine itself.
 The KinMS_fitter wrapper code can be found at: [https://github.com/TimothyADavis/KinMS_fitter](https://github.com/TimothyADavis/KinMS_fitter).<br>
 Issues should be raised here for bugs in the KinMS_fitter routine.
 
-If you are unsure occurs feel free to raise issues/feature requests in either location, or [contact me]({{ site.github.url }}/contact).
+If you are unsure feel free to raise issues/feature requests in either location, or [contact me]({{ site.github.url }}/contact).
