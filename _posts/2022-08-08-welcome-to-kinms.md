@@ -4,7 +4,7 @@ title: "What is KinMS?"
 author: "Tim Davis"
 categories: documentation
 tags: [documentation,sample]
-image: KinMS_fade_gal.png
+image: KinMS_fade_gal.jpg
 permalink: '/welcome-to-kinms'
 ---
 
