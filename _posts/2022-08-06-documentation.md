@@ -8,4 +8,4 @@ image: KinMS_documentation.jpg
 permalink: "/documentation"
 ---
 
-Coming soon.
+API documentation is avalible [here](https://timothyadavis.github.io/KinMS_fitter/index.html).
