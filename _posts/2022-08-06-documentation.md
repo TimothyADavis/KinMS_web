@@ -8,4 +8,4 @@ image: KinMS_documentation.jpg
 permalink: "/documentation"
 ---
 
-API documentation is avalible [here](https://timothyadavis.github.io/KinMS_fitter/index.html).
+API documentation is available [here](https://timothyadavis.github.io/KinMS_fitter/index.html).
